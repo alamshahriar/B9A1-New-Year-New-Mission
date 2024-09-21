@@ -1,0 +1,215 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+/* common shared style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+body h1 h2 {
+    font-family: "Merriweather", serif;
+}
+
+body p button h3 h4 h5 h6 {
+    font-family: "Inter", sans-serif;
+}
+
+/* hero section related style */
+.new-year {
+    background-image: url('../img/Banner Image.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.new-year-tittle {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+    padding-bottom: 16px;
+    max-width: 259px;
+    margin: auto;
+    text-align: center;
+    opacity: .8;
+}
+
+.hero-tittle {
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 700;
+    max-width: 632px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 208px;
+    opacity: .8;
+}
+
+/* main related style */
+.offer {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.offer-tittle {
+    color: #FF0000;
+    font-size: 88px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+.offer-des {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.deals-tittle {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 48px;
+}
+
+.party {
+    margin-top: 120px;
+    background-image: url('../img/Group\ 101.png');
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.party-tittle {
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    padding: 120px 0 0 120px;
+    max-width: 642px;
+    padding-bottom: 24px;
+}
+
+.party-des {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 120px;
+    padding-bottom: 48px;
+    max-width: 697px;
+}
+
+.join-des {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 158px;
+    padding-bottom: 142px;
+}
+
+.img-time {
+    padding-top: 68.11px;
+    padding-bottom: 67.11px;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+
+    .new-year {
+        background-size: cover;
+        background-position: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+
+    .new-year-tittle {
+        font-size: 16px;
+        padding-top: 13px;
+        padding-bottom: 5px;
+    }
+
+    .hero-tittle {
+        font-size: 36px;
+        padding-bottom: 7px;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .offer {
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .offer-tittle {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .offer-des {
+        font-size: 21px;
+    }
+
+    .deals-tittle {
+        font-size: 30px;
+    }
+
+    .party {
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 15px;
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .party-tittle {
+        font-size: 24px;
+        padding: 20px 0 0 20px;
+    }
+
+    .party-des {
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .join-des {
+        padding-left: 0;
+        padding-bottom: 15px;
+    }
+
+    .img-time {
+        width: 70%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 50px;
+    }
+}
