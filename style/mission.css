@@ -1,5 +1,5 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
 
 /* common shared style */
@@ -134,6 +134,236 @@ body p button h3 h4 h5 h6 {
     padding-bottom: 67.11px;
 }
 
+.place {
+    margin-top: 120px;
+    background: linear-gradient(rgba(255, 0, 0, 0.103), #FFFFFF);
+    text-align: center;
+    border-radius: 16px;
+}
+
+.location {
+    padding-top: 100px;
+}
+
+.place-tittle {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.place span {
+    color: #FF0000;
+}
+
+.primary-btn {
+    color: #FFFFFF;
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 48px;
+    margin-bottom: 110px;
+}
+
+.new-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.new-offer-tittle {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.dolor-tittle {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Merriweather";
+    padding-top: 16px;
+    padding-bottom: 22px;
+}
+
+.dolor-des {
+    color: #07021171;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 393px;
+}
+
+.ellipse-img img {
+    border-radius: 50%;
+    border: 15px solid #FF0000;
+    padding: 50px;
+    width: 463px;
+    height: 463px;
+}
+
+.group {
+    padding-top: 104px;
+    padding-left: 118px;
+}
+
+.year-tittle {
+    color: #FF0000;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.year-des {
+    color: #07021171;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 276px;
+    padding-top: 16px;
+    padding-bottom: 43px;
+}
+
+.holiday {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.holiday-tittle {
+    color: #070211;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+
+.sit-tittle {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 700;
+    padding-bottom: 48px;
+    font-family: "Merriweather";
+}
+
+.holiday span {
+    color: #FF0000;
+}
+
+.sit-des {
+    color: #07021171;
+    font-size: 20px;
+    padding-bottom: 64px;
+    max-width: 1068px;
+    margin: auto;
+}
+
+.portfolio {
+    margin-top: 120px;
+}
+
+.portfolio-tittle {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.des {
+    max-width: 896px;
+    padding-bottom: 48px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.sub {
+    margin-top: 120px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding-bottom: 80px;
+    border-radius: 16px;
+}
+
+.ipsum-des {
+    max-width: 896px;
+    margin: auto;
+}
+
+.sub img {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"] {
+    font-size: 15px;
+    max-width: 648px;
+    height: 72px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    padding-left: 30px;
+    /* margin-bottom: 80px; */
+}
+
+.btn {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    width: 210px;
+    height: 72px;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #FF0000;
+}
+
+footer {
+    background-color: #070211;
+    margin-top: 120px;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 120px;
+    margin-bottom: 50px;
+}
+
+.last-tittle,
+.last-des {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 5px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ffffffc9;
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.last-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
 
@@ -211,5 +441,129 @@ body p button h3 h4 h5 h6 {
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 50px;
+    }
+
+    .place {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .place-tittle {
+        font-size: 20px;
+    }
+
+    .primary-btn {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .new-offer {
+        flex-direction: column;
+    }
+
+    .new-offer-tittle,
+    .dolor-tittle {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .dolor-tittle {
+        font-size: 30px;
+    }
+
+    .dolor-des {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .ellipse-img img {
+        width: 243px;
+        height: 243px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid #FF0000;
+    }
+
+    .ellipse-img img {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+    }
+
+    .sed {
+        padding-left: 30px;
+    }
+
+    .group {
+        padding-top: 14px;
+        padding-left: 0;
+    }
+
+    .year-tittle {
+        font-size: 28px;
+    }
+
+    .year-des {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .holiday,
+    .portfolio,
+    .sub {
+        margin-top: 60px;
+    }
+
+    .holiday-tittle {
+        font-size: 20px;
+    }
+
+    .sit-tittle {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .sit-des {
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+
+    .portfolio,
+    .sub {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .sub {
+        padding-bottom: 40px;
+    }
+
+    .portfolio-tittle {
+        font-size: 30px;
+    }
+
+    .item {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .sub img {
+        width: 150px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .ipsum-des {
+        max-width: 260px;
+        margin: auto;
+    }
+
+    input[type="email"] {
+        padding-left: 5px;
+    }
+
+    .btn {
+        width: 110px;
     }
 }
